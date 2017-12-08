@@ -69,16 +69,19 @@
 
     Trace the following. As you trace, maintain a picture of memory and a picture of the terminal output.
 
-        Thing x;
-        Thing y = new Thing(10);
-        new Thing(20).inc();
-        x = new Thing(9);
-        Thing z = y;
-        x.inc();
-        y = null;
-        if (z == x) {
-            System.out.println("same");
+        someMethod() {
+            Thing x;
+            Thing y = new Thing(10);
+            new Thing(20).inc();
+            x = new Thing(9);
+            Thing z = y;
+            x.inc();
+            y = null;
+            if (z == x) {
+                System.out.println("same");
+            }
+            else {
+                System.out.println("diff");
+            }
         }
-        else {
-            System.out.println("diff");
-        }
+        
