@@ -84,4 +84,17 @@
                 System.out.println("diff");
             }
         }
+1. "The use of FileNotFoundException tends to 'spread' throughout your code." What is meant by this? Did you see this happen in assignment 8? In what way? 
+1. Give an example of each of the following common programming gotchas:
+    1. off by one error
+    1. comparing Strings with ==
+    1. forgetting how integer division
+    1. accidentally creating an infinite loop
+    1. dividing by 0
+    1. using a local variable when you think you're using an instance variable
+    1. forgetting to instantiate classes before using them
+1. Design a class that can represent the weather observed on a given day. Assume you need to track the high and low temperatures on that day, as well as the amount of precipitation in mm. Your class should have accessors and mutators for each field, a reasonable constructor, and a toString.
+    1. Write a statement illustrating how you could create an instance of your class.
+1. Create a method that is given the name of a file and then reads the file word-by-word and returns the average word length of all words in that file. You can assume all words are separated by white space - no need to worry about punctuation and the like. If the file is empty, your method should return 0. Don't use an ArrayList. Include any and all imports required to make your method compile.
+
         
